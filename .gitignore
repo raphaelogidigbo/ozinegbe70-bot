@@ -1,0 +1,6 @@
+node_modules/
+.fontconfig/
+.env
+.numba_cache/
+design/sample-*.jpg
+.git-old/

@@ -1,0 +1,37 @@
+services:
+  - type: web
+    name: ozinegbe70-bot
+    runtime: node
+    plan: free
+    buildCommand: npm ci
+    startCommand: node src/server.js
+    healthCheckPath: /health
+    envVars:
+      - key: WHATSAPP_VERIFY_TOKEN
+        sync: false
+      - key: META_APP_SECRET
+        sync: false
+      - key: WHATSAPP_ACCESS_TOKEN
+        sync: false
+      - key: WHATSAPP_PHONE_NUMBER_ID
+        sync: false
+      - key: GRAPH_VERSION
+        value: v23.0
+      - key: BOT_NUMBER
+        sync: false
+      - key: RSVP_NAMES
+        sync: false
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_KEY
+        sync: false
+      - key: PUBLIC_BASE_URL
+        sync: false
+      - key: DOOR_KEY
+        sync: false
+      - key: ADMIN_KEY
+        sync: false
+      - key: RESEND_API_KEY
+        sync: false
+      - key: EMAIL_FROM
+        sync: false

@@ -1,0 +1,36 @@
+{
+  "store": {
+    "name": "Amaka Grocery Village",
+    "tagline": "From Our Village to Your Kitchen",
+    "address": "No. 15 Okpanam Road, Asaba",
+    "phone": "08031456678",
+    "whatsapp": "08031456678",
+    "productionDate": "16 August 2026",
+    "expiryDate": "31 December 2027",
+    "nafdacNo": "A1-0000",
+    "netWeight": "1kg"
+  },
+  "featuredItem": {
+    "name": "GARRI",
+    "subtitle": "Premium Yellow Garri",
+    "image": "assets/food/garri.jpg",
+    "badge": "NAFDAC APPROVED"
+  },
+  "foodItems": [
+    { "name": "garri", "image": "assets/food/garri.jpg" },
+    { "name": "egusi", "image": "assets/food/egusi.jpg" },
+    { "name": "ogbono", "image": "assets/food/ogbono.jpg" },
+    { "name": "dry fish", "image": "assets/food/dry-fish.jpg" },
+    { "name": "kpomo", "image": "assets/food/kpomo.jpg", "crop": { "top": 0.38, "bottom": 0.4, "right": 0.62 } },
+    { "name": "otazi", "image": "assets/food/otazi.jpg" },
+    { "name": "scent leaf", "image": "assets/food/scent-leaf.jpg" },
+    { "name": "negro pepper", "image": "assets/food/negro-pepper.jpg" },
+    { "name": "stockfish", "image": "assets/food/stockfish.jpg", "crop": { "bottom": 0.4 } },
+    { "name": "dried bitterleaf", "image": "assets/food/dried-bitterleaf.jpg" }
+  ],
+  "badges": {
+    "nafdac": true,
+    "quality": "100% Natural",
+    "origin": "Made in Nigeria"
+  }
+}

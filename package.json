@@ -1,0 +1,33 @@
+{
+  "name": "ozinegbe70-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp invitation bot + I'm Attending card engine for the Ozinegbe 70th Birthday Thanksgiving",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "assets": "node scripts/render-assets.js",
+    "download-images": "node scripts/download-food-images.js",
+    "store-flyer": "node scripts/render-store-flyer.js",
+    "store-flyer:item": "node scripts/render-store-flyer.js --item",
+    "store-flyer:items": "node scripts/render-store-flyer.js --items",
+    "cutout": "python tools/cutout.py",
+    "test:flow": "node scripts/simulate-flow.js",
+    "test:webhook": "node scripts/local-webhook.js",
+    "test:door": "node scripts/test-door.js",
+    "test:rsvp": "node scripts/test-rsvp.js",
+    "test:invite": "node scripts/test-invite.js"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "@fontsource/cormorant-garamond": "^5.3.0",
+    "@fontsource/montserrat": "^5.3.0",
+    "@supabase/supabase-js": "^2.116.0",
+    "dotenv": "^18.0.1",
+    "express": "^5.2.1",
+    "qrcode": "^1.5.4",
+    "sharp": "^0.35.4"
+  }
+}
